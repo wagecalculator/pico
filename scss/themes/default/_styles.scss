@@ -158,7 +158,7 @@
 
 // Link
 a {
-  --text-decoration: none;
+  --text-decoration: underline;
 
   // Secondary & Contrast
   @if $enable-classes {
