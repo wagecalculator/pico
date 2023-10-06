@@ -51,7 +51,7 @@ ul {
 
 // Links
 // 1. Remove the gray background on active links in IE 10
-a,
+a:not(#github-corner),
 [role="link"] {
   --color: var(--primary);
   --background-color: transparent;
