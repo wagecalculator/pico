@@ -4,6 +4,7 @@
 [data-theme="light"],
 :root:not([data-theme="dark"]) {
   --background-color: #{$white};
+  --body-background: #{$grey-100};
 
   // Texts colors
   --color: #{$grey-700};
