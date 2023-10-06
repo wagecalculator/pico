@@ -4,7 +4,7 @@
 [data-theme="light"],
 :root:not([data-theme="dark"]) {
   --background-color: #{$white};
-  --body-background: #{$grey-50};
+  --body-background: #{$white};
 
   // Texts colors
   --color: #{$grey-700};
@@ -20,9 +20,9 @@
   --muted-border-color: #{$grey-50};
 
   // Primary colors
-  --primary: #{$primary-400};
-  --primary-hover: #{$primary-500};
-  --primary-focus: #{rgba($primary-400, 0.125)};
+  --primary: #{$primary-500};
+  --primary-hover: #{$primary-600};
+  --primary-focus: #{rgba($primary-500, 0.125)};
   --primary-inverse: #{$white};
 
   // Secondary colors
@@ -108,7 +108,7 @@
   // Card (<article>)
   $box-shadow-elevation: 1rem;
   $box-shadow-blur-strengh: 6rem;
-  $box-shadow-opacity: 0.06;
+  $box-shadow-opacity: 0.10;
   --card-background-color: var(--background-color);
   --card-border-color: var(--muted-border-color);
   --card-box-shadow:
